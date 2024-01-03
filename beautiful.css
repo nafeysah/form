@@ -18,6 +18,7 @@ main{
     margin: auto;
     width: 60%;
     height: 60%;
+    margin-top: 3rem;
 }
 form{
     background-color: white;
@@ -26,7 +27,40 @@ form{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    width: 100%;
 }
-/* input{
-    margin-bottom: 1rem;
-} */
+#sign{
+    color: white;
+    font-size: xx-large;
+    padding: 2rem;
+
+}
+.underline{
+    border-bottom: 2px solid blue;
+}
+button{
+    border: none;
+    color: #2548bb;
+    background-color: transparent;
+
+}
+.Now{
+    background-color: #2548bb;
+    justify-content: center;
+    border-radius: 5px;
+    height: 40px;
+    text-align: center;
+    padding: 8px;
+    color: white;
+}
+.input{
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    font-size: large;
+    color: #e5e5e5;
+    border: 1px solid #e5e5e5cc;
+    border-radius: 5px;
+}
+
+
