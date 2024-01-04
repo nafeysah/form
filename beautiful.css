@@ -9,9 +9,7 @@ body{
 }
 *{
     box-sizing: border-box;
-} body{
-    padding-top: 3rem;
-}
+} 
 main{ 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -61,6 +59,7 @@ button{
     color: #e5e5e5;
     border: 1px solid #e5e5e5cc;
     border-radius: 5px;
+    border-bottom-width: 3px;
 }
 
 
